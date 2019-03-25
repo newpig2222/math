@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Chapter3 极限的定义 {#0202intro} | 我的考研数学笔记</title>
+  <meta name="description" content="Chapter3 极限的定义 {#0202intro} | 我的考研数学笔记">
+  <meta name="generator" content="bookdown  and GitBook 2.6.7">
+
+  <meta property="og:title" content="Chapter3 极限的定义 {#0202intro} | 我的考研数学笔记" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Chapter3 极限的定义 {#0202intro} | 我的考研数学笔记" />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter3 极限的定义 {#0202intro} | 我的考研数学笔记" />
+  
+  <meta name="twitter:description" content="Chapter3 极限的定义 {#0202intro} | 我的考研数学笔记" />
+  
+
+<meta name="author" content="lazy pig">
+
+
+<meta name="date" content="2019-03-22">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="intro.html">
+<link rel="next" href="applications.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="https://github.com/newpig2222/mymaths">我的数学笔记</a></li>
+
+<li class="divider"></li>
+<li class="part"><span><b>I 前言</b></span></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> 内容</a><ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#section"><i class="fa fa-check"></i><b>1.1</b> 高数部分内容：</a></li>
+</ul></li>
+<li class="part"><span><b>II 高数</b></span></li>
+<li class="chapter" data-level="2" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>2</b> 极限 {#0101intro}</a><ul>
+<li class="chapter" data-level="2.1" data-path="intro.html"><a href="intro.html#section-1"><i class="fa fa-check"></i><b>2.1</b> 核心考点：</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="intro-1.html"><a href="intro-1.html"><i class="fa fa-check"></i><b>3</b> 极限的定义 {#0202intro}</a><ul>
+<li class="chapter" data-level="3.1" data-path="intro-1.html"><a href="intro-1.html#section-2"><i class="fa fa-check"></i><b>3.1</b> （一）、24种极限定义：</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="applications.html"><a href="applications.html"><i class="fa fa-check"></i><b>4</b> Applications</a><ul>
+<li class="chapter" data-level="4.1" data-path="applications.html"><a href="applications.html#example-one"><i class="fa fa-check"></i><b>4.1</b> Example one</a></li>
+<li class="chapter" data-level="4.2" data-path="applications.html"><a href="applications.html#example-two"><i class="fa fa-check"></i><b>4.2</b> Example two</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="final-words.html"><a href="final-words.html"><i class="fa fa-check"></i><b>5</b> Final Words</a></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/newpig2222" target="blank">来自懒猪</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">我的考研数学笔记</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="intro-1" class="section level1">
+<h1><span class="header-section-number">Chapter3</span> 极限的定义 {#0202intro}</h1>
+<div id="section-2" class="section level2">
+<h2><span class="header-section-number">3.1</span> （一）、24种极限定义：</h2>
+<ol style="list-style-type: decimal">
+<li>原始定义：给出连续函数f(x)，<span class="math inline">\(\lim_{x \to x_0}f(x)=A\)</span> 等价于f(x)极限为A，转化为数学语言为：</li>
+</ol>
+<p><span class="math inline">\(\forall\)</span> <span class="math inline">\(\xi\)</span> &gt;0, <span class="math inline">\(\exists\)</span> <span class="math inline">\(\delta\)</span> &gt;0,当0&lt;|x-$ x_0$|&lt; <span class="math inline">\(\delta\)</span> ,|f(x)-A|&lt; <span class="math inline">\(\xi\)</span> ,具体来说：</p>
+<blockquote>
+<ol style="list-style-type: decimal">
+<li><span class="math inline">\(\xi\)</span> 表示无论多小的正数，相当于衡量的尺度</li>
+<li>0&lt;|x-<span class="math inline">\(x_0\)</span> |&lt;<span class="math inline">\(\delta\)</span> 表示以<span class="math inline">\(x_0\)</span> 为中心的去心领域，如下图：<strong>其中<span class="math inline">\(\delta\)</span> 表示附近一个不大的正数。</strong><img src="https://github.com/newpig2222/photo/raw/master/1609735006.jpg" alt="x_0" /></li>
+<li>f(x）和A的距离要小于给出的任意尺度（即<span class="math inline">\(\xi\)</span> ）。</li>
+</ol>
+</blockquote>
+<ul>
+<li>拓展极限定义：
+<ul>
+<li><p>左极限：<span class="math inline">\(\forall\)</span> <span class="math inline">\(\xi\)</span> &gt;0, <span class="math inline">\(\exists\)</span> <span class="math inline">\(\delta\)</span> &gt;0,当0&lt;$ x_0$-x&lt; <span class="math inline">\(\delta\)</span> ,|f(x)-A|&lt; <span class="math inline">\(\xi\)</span>时，|f(x)-A|&lt; <span class="math inline">\(\xi\)</span>,即在<span class="math inline">\(x_0\)</span>的左领域也成立极限</p></li>
+<li><p>右极限：<span class="math inline">\(\forall \xi &gt;0\)</span>, <span class="math inline">\(\exists\delta &gt;0\)</span>,当<span class="math inline">\(0&lt;x-{x_0}\)</span> &lt; <span class="math inline">\(\delta\)</span> ,|f(x)-A|&lt; <span class="math inline">\(\xi\)</span>时，|f(x)-A|&lt; <span class="math inline">\(\xi\)</span> ,即在<span class="math inline">\(x_0\)</span>的右领域叶成立。</p></li>
+</ul></li>
+</ul>
+<ol style="list-style-type: decimal">
+<li><span class="math inline">\(\lim_{x\to \infty}f(x)=A\)</span> 转化为数学语言为：</li>
+</ol>
+<p><span class="math inline">\(\forall \xi &gt;0\)</span>, <span class="math inline">\(\exists\)</span>X&gt;0,当|x|&gt;X时 ,|f(x)-A|&lt; <span class="math inline">\(\xi\)</span> ，具体来说：</p>
+<blockquote>
+<ol style="list-style-type: decimal">
+<li><span class="math inline">\(\xi\)</span> 表示无论多小的正数，相当于衡量的尺度</li>
+<li>|x|&gt;X表示x向X和-X两个方向无限趋向无穷大，即这个<span class="math inline">\(\exists\)</span>X&gt;0表示远方，很大的正数。如图：</li>
+</ol>
+<div class="figure">
+<img src="https://github.com/newpig2222/photo/raw/master/3.jpg" alt="X" />
+<p class="caption">X</p>
+</div>
+</blockquote>
+<ul>
+<li>拓展定义：
+<ul>
+<li>左极限：<span class="math inline">\(\forall \xi\)</span> ,<span class="math inline">\(\exists X\)</span>,当x&lt;-x时，|f(x)-A|&lt;<span class="math inline">\(\xi\)</span>。</li>
+<li>右极限：<span class="math inline">\(\forall\xi\)</span> ,<span class="math inline">\(\exists\)</span> X,当<span class="math inline">\(x\)</span>&gt;x时，|f(x)-A|&lt;<span class="math inline">\(\xi\)</span> 。</li>
+</ul></li>
+</ul>
+<p>以上六个定义，为基本定义，即其极限是属于存在的数，这个数是唯一的。</p>
+<hr />
+<ol style="list-style-type: decimal">
+<li><p><span class="math inline">\(\lim_{x\to *}f(x)=\infty/+\infty/-\infty\)</span> :</p>
+<blockquote>
+<ol style="list-style-type: decimal">
+<li><span class="math inline">\(x\to *\)</span>的意思是包含六种情况：分别是<span class="math inline">\(x\to x_0/{x_0}^+/{x_0}^-/\infty/-\infty/+\infty\)</span></li>
+<li><span class="math inline">\(\infty/+\infty/-\infty\)</span> 表示<strong><em>特殊的不存在 的数</em></strong>，一旦题目中给出了存在有界，即表明是指分割线前六种情况。</li>
+</ol>
+</blockquote>
+<p>具体的定义来说：</p>
+<ul>
+<li><span class="math inline">\(\lim_{x \to *}f(x)=\infty\)</span>: <span class="math inline">\(\forall\)</span> M, ( ), 当( ) 时，|f(x)|&gt;M即无论给出的多大的M，f(x)到原点的距离总是大于M，其中两个括号为根据六种不同的情况填写（<span class="math inline">\(x \to *\)</span>）
+<ul>
+<li>左极限为: <span class="math inline">\(\forall\)</span> M, ( ),当（ ）时，f(x)&lt;-M</li>
+<li>右极限为：<span class="math inline">\(\forall\)</span> M，（ ），当（ ）时，f(x)&gt;M</li>
+</ul></li>
+<li>根据六种不同的情况填入两个括号，可得18种定义。</li>
+</ul>
+<ol style="list-style-type: decimal">
+<li><p>例题：</p>
+<ul>
+<li><p>例题1.证明若<span class="math inline">\(x \to +\infty\)</span>及<span class="math inline">\(x \to -\infty\)</span>时，函数f(x)的极限都存在且等于A，则<span class="math inline">\(\lim _{x \to \infty}f(x)=A\)</span></p>
+<blockquote>
+<p>【分析】本题实际上就是说左右极限均存在且相等，则总极限存在，因此我们应该从定义出发，通过定义展开条件，得出极限的定义条件。</p>
+<p>【证明】<span class="math inline">\(\lim _{x \to +\infty}f(x)=A\)</span> 得出 <span class="math inline">\(\forall \xi\)</span>, <span class="math inline">\(\exists\)</span> X，当x &gt;X时，f(x)-A&lt;$ $</p>
+<p><span class="math inline">\(\lim _{x \to -\infty}f(x)\)</span> =A 得出 <span class="math inline">\(\forall \xi\)</span>, $ $ X,当x&lt;-X时，f(x)-A&gt;- <span class="math inline">\(\xi\)</span></p>
+<p>因此得出，<span class="math inline">\(\forall \xi\)</span> , $$ X,当|x|&gt;X时，|f(x)-A|&lt; <span class="math inline">\(\xi\)</span>,即<span class="math inline">\(\lim_{x \to \infty}f(x)=A\)</span></p>
+</blockquote></li>
+<li><p>例题2，证明函数f(x),当<span class="math inline">\(x \to {x_0}\)</span>时，极限存在的必要条件是左右极限各自存在并相等。</p>
+<blockquote>
+<p>【分析】极限存在则可以推出左右极限存在且相等，该题则是反向证明。</p>
+<p>【证明】<span class="math inline">\(\lim_{x \to {x_0}^-}f(x)=A\)</span>，则推出<span class="math inline">\(\forall \xi\)</span> ,<span class="math inline">\(\exists {\delta}_1\)</span>当 &gt;0,当<span class="math inline">\(0&lt;x_0 -x&lt; {\delta}_1\)</span>时，|f(x)-A|&lt; <span class="math inline">\(\xi\)</span> ,</p>
+<p><span class="math inline">\(\lim_{x \to {x_0}^+}f(x)=A\)</span> ，则推出<span class="math inline">\(\forall \xi\)</span> ,<span class="math inline">\(\exists {\delta}_2\)</span> &gt;0,当0&lt;x-<span class="math inline">\(x_0 &lt;{\delta}_2\)</span> 时，|f(x)-A|&lt; <span class="math inline">\(\xi\)</span> 。</p>
+<p><strong><em>根据极限的定义</em></strong> ，取<span class="math inline">\(\delta\)</span> = min{<span class="math inline">\({ \delta }_1\)</span>,<span class="math inline">\({ \delta }_2\)</span> },使得<span class="math inline">\(|x-x_0|&lt; \delta\)</span> ,即得证。</p>
+<p>如图：<img src="https://github.com/newpig2222/photo/raw/master/12.jpg" alt="分析图" /></p>
+</blockquote></li>
+<li><p>例题3试给出<span class="math inline">\(x \to \infty\)</span> 时函数极限局部有限性的定理，并加以证明，若<span class="math inline">\(\lim _{x \to \infty}f(x)\)</span> 存在则存在X&gt;0及M&gt;0使得 <span class="math inline">\(\forall |x|&gt;X均有|f(x)| \le M\)</span>。</p>
+<blockquote>
+<p>【分析】<span class="math inline">\(\lim_{x \to *}f(x)=A \Rightarrow\)</span> 当 <span class="math inline">\(x \to *\)</span> 时 <span class="math inline">\(|f(x)| \le M\)</span>。即f(x)距离原点不超过M，才是有界性。如图</p>
+<div class="figure">
+<img src="https://github.com/newpig2222/photo/raw/master/2019030701.jpg" alt="有限性分析图" />
+<p class="caption">有限性分析图</p>
+</div>
+<p>【证明】<span class="math inline">\(\lim_{x \to \infty}f(x)=A \Rightarrow \forall \xi\)</span> , <span class="math inline">\(\exists X&gt;0\)</span> ,|x|&gt;X时 ，<span class="math inline">\(|f(x)-A| &lt; \xi\)</span> 。</p>
+<p>已知 |f(x)-A|&lt; <span class="math inline">\(\xi\)</span> ,目标为 |f(x)| <span class="math inline">\(\le\)</span> M</p>
+<p><strong><em>根据中学数学重要不等式之一</em></strong> ：<span class="math inline">\(|a \pm b| \le |a| +|b|\)</span></p>
+<p><span class="math inline">\(|f(x)|=|f(x)+A-A| \le |f(x)+A|+|A|\)</span>,由上得知，<span class="math inline">\(|f(x)-A| &lt; \xi\)</span> ,故 <span class="math inline">\(f(x) \le \xi +|A|\)</span>，根据题意，<span class="math inline">\(\xi &gt;0\)</span>， |A| <span class="math inline">\(\ge\)</span> 0。因 <span class="math inline">\(\xi\)</span> 为任意大于零的正数，故令 <span class="math inline">\(\xi\)</span> =2019,则 f(x) <span class="math inline">\(\le\)</span> 2019+|A|。因2019+|A|为一个确定的正数，故令M=2019+|A|，得证 f(x) <span class="math inline">\(\le\)</span> M。</p>
+</blockquote></li>
+</ul></li>
+</ol>
+<h2 id="section-3"><span class="header-section-number">3.1</span> (二)数列极限：</h2>
+<ol style="list-style-type: decimal">
+<li><span class="math inline">\(\forall \xi &gt;0\)</span>， <span class="math inline">\(\exists\)</span> N&gt;0, 当 n&gt;N时，{<span class="math inline">\(x_n\)</span>}收敛于A <span class="math inline">\(\Leftrightarrow\)</span> <span class="math inline">\(\lim_{n \to \infty}{x_n}=A\)</span> 。<strong><em>注意：</em></strong></li>
+</ol>
+<p>数列{<span class="math inline">\(x_n\)</span>} 决定了n必须是正的自然数，因此n只能趋向于<span class="math inline">\(+\infty\)</span> <strong>即数列的极限是趋向于远方的</strong>。</p>
+<p><strong>定义：</strong> <span class="math inline">\(\lim_{x \to \infty} {x_n}=A \Leftrightarrow \forall \xi\)</span> , <span class="math inline">\(\exists\)</span> N,当n&gt;N时，<span class="math inline">\(|x_n -A|&lt; \xi\)</span> 。</p>
+<ol style="list-style-type: decimal">
+<li><p>例题4 <span class="math inline">\(\lim_{n \to \infty }{u_n}=a\)</span> ,证明 <span class="math inline">\(\lim_{n \to \infty}{|u_n|}=|a|\)</span> ,并举例证明。如果数列{|<span class="math inline">\(x_n\)</span>|} 有极限 但数列{<span class="math inline">\(x_n\)</span>}未必有极限。</p>
+<blockquote>
+<ul>
+<li>【分析】本题应从定义展开，然后利用中学重要不等式定理推导证明。</li>
+</ul>
+<p>【证明】 <span class="math inline">\(\lim_{n \to \infty}u_n=a \Leftrightarrow \forall \xi\)</span> ,<span class="math inline">\(\exists\)</span> N,当 n&gt;N，时 <span class="math inline">\(|u_n-a| &lt; \xi\)</span> 。</p>
+<p><strong>根据中学重要不等式定理：</strong>||a|-|b|| <span class="math inline">\(\le\)</span> |a-b| 这个定理实际上是a、b到原点距离和各自离原点距离的远近关系。如图：</p>
+<div class="figure">
+<img src="https://github.com/newpig2222/photo/raw/master/20190307002.jpg" alt="a、b与原点关系图" />
+<p class="caption">a、b与原点关系图</p>
+</div>
+<p><strong>当a、b 位于原点的同侧时，等号成立！</strong></p>
+<div class="figure">
+<img src="https://github.com/newpig2222/photo/raw/master/20190307003.jpg" alt="等号成立情况之一" />
+<p class="caption">等号成立情况之一</p>
+</div>
+<p>故可得，<span class="math inline">\(|u_n -a | \ge | | u_n | -|a||\)</span>，已知<span class="math inline">\(|u_n -a| &lt; \xi\)</span> ，可得<span class="math inline">\(||u_n|-|a||&lt; \xi\)</span> ,从而可得：<span class="math inline">\(\lim_{n \to \infty }|u_n|\)</span>=a。</p>
+<p><strong><em>注意利用中学关于重要不等式定理！,这些题目主要考察对定理的理解，往往由已知条件展开定理，然后利用中学重要不等式定理求证！</em></strong></p>
+<ul>
+<li>如数列<span class="math inline">\({x_n}=(-1)^n\)</span> 其值是在-1和1之间跳动，故无极限，而<span class="math inline">\(|{x_n}|=|(-1)^n|\)</span> 的值为常数1,而常数的极限即为本身，故其极限为1。</li>
+</ul>
+</blockquote>
+<p>例题5.对于数列{<span class="math inline">\(x_n\)</span>}，若<span class="math inline">\(x_{2k-1} \rightarrow a ( k \to \infty)\)</span>,<span class="math inline">\(x_{2k} \rightarrow a( k \to \infty )\)</span>，证明<span class="math inline">\(x_n \rightarrow a (n \to \infty)\)</span> 。</p>
+<blockquote>
+<p>【分析】本题已知条件实际上是指数列的奇数项和偶数项均有相等的极限，求证整个数列有极限，<strong>应从定义出发，进行条件构造。</strong></p>
+<p>【证明】<span class="math inline">\(x_{2k-1} \to a (k \to \infty) \Rightarrow \forall \xi , \exists N_1\)</span> ，当2k-1&gt; <span class="math inline">\(N_1\)</span>时，<span class="math inline">\(|x_{2k-1}-a|&lt; \xi\)</span> 。（1）式</p>
+<p><span class="math inline">\(x_{2k } \to a (k \to \infty ) \Rightarrow \forall \xi , \exists N_2\)</span> ，当2k&gt;<span class="math inline">\(N_2\)</span>时，<span class="math inline">\(|x_{2k}-a|&lt; \xi\)</span> 。（2）式。</p>
+<p>根据图分析，取N=max{<span class="math inline">\(N_1,N_2\)</span>}时，<span class="math inline">\(\exists N &gt;0\)</span>，当n&gt;N时，<span class="math inline">\(|x_n|-a&lt; \xi\)</span> 即 <span class="math inline">\(\lim_{n \to \infty }{x_n}=a\)</span>。</p>
+<p>如图：<img src="https://github.com/newpig2222/photo/raw/master/20190307004.jpg" alt="数列极限实际上就是比远方，故取两种情况的最远方即可满足条件，此题注意和例题2作比较" /></p>
+</blockquote></li>
+</ol>
+<p><strong>本节主要是将24+1共25种定义掌握，能够推导即可</strong></p></li>
+</ol>
+
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="intro.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="applications.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"download": ["mymaths.pdf", "mymaths.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:" && /^https?:/.test(src))
+      src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>
